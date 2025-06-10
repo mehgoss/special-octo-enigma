@@ -28,4 +28,4 @@ jobs:
           MONGODB_ATLAS_USERNAME: ${{ secrets.MONGODB_ATLAS_USERNAME }}
           MONGODB_ATLAS_PASSWORD: ${{ secrets.MONGODB_ATLAS_PASSWORD }}
           MONGODB_ATLAS_CLUSTER: ${{ secrets.MONGODB_ATLAS_CLUSTER }}
-        run: python show_atlas_databases.py
+        run: python App.py
